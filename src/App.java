@@ -21,14 +21,18 @@ public class App {
 
         //*********************************CALCULO DO PRIMEIRO DIGITO*****************************
 
+       
         recebeSomaCpf = CalculaPenultinoDigito(cpf, baseMultiplicadora, recebeSomaCpf);          
         
 
+        
         PenultimoDigito = totalDigitosCpf - (recebeSomaCpf % totalDigitosCpf);
         
 
+        
         NumeroCpf = ComparaPenultimoDigito(cpf);
 
+       
         PenultimoDigitoValido = ValidaUltimoDigito(PenultimoDigitoValido, PenultimoDigito, NumeroCpf);
 
      
