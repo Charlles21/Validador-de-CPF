@@ -21,7 +21,7 @@ public class App {
 
         //*********************************CALCULO DO PRIMEIRO DIGITO*****************************
 
-          recebeSomaCpf = CalculaPenultinoDigito(cpf, baseMultiplicadora, recebeSomaCpf);          
+        recebeSomaCpf = CalculaPenultinoDigito(cpf, baseMultiplicadora, recebeSomaCpf);          
         
 
         PenultimoDigito = totalDigitosCpf - (recebeSomaCpf % totalDigitosCpf);
